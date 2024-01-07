@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b8b863;
+}
+
+header {
+  background-color: #453483;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.title {
+  color: #32955F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.fa-handshake-simple {
+  font-size: 26px;
+  color: #2F4858;
+}
+
+.info ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 4rem;
+}
+
+.info ul li {
+  margin-right: 1.5rem;
+}
+
+.info ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+}
+
+.info ul li:first-child a {
+  margin-left: 0;
+}
+
+.info ul li:last-child a {
+  margin-right: 0;
+}
+
+div {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* Style for the h2 element */
+h6 {
+ font-size: 28px;
+ margin-top: 70px;
+ color: #2F4858;
+
+}
+
+
+details summary {
+  font-size: x-large;
+  font-weight: bold;
+}
+.menu {
+  margin-left: 0px;
+  background-image: url(images/1675255304638.png);
+  margin-top: 2rem;
+}
+
+.menu-content {
+  overflow: scroll;
+  height: 600px; 
+}
+
+.abc{
+  font-variant: small-caps;
+  color: rgb(145, 130, 158);
+  font-size: xx-large;
+  border-radius: 40px;
+  margin-top: 7rem;
+}
+/*.c2{ 
+
+  width: 900px;
+  margin-top: 3rem;
+  height: 400px;
+
+}*/
+.abcd{
+  font-variant: small-caps;
+  color: rgb(145, 130, 158);
+  font-size: xx-large;
+  border-radius: 40px;
+  margin-top: 5rem;
+}
+.card{
+  margin-top: 5rem;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 5rem;
+  cursor: pointer;
+  border-width: 4px;
+  border-style: solid;
+}
+.card:hover{
+  color: aquamarine;
+}
+.btn{
+
+  border: 25rem;
+  background-color: #af4266 ;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 5px  4px 5rem 2rem;
+  color: #393f72;
+  font-style: oblique;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+button a {
+text-decoration: none;
+}
+.btn:hover{
+  color: #F9F871;
+}
+.h{
+  display: inline;
+  margin-top: 10px;
+ 
+}
